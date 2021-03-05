@@ -32,17 +32,8 @@ $selectStatement->execute();
                 <p><label> Téléphone:<input type="text" name="phone"placeholder="téléphone" >   </label></p>
                 <p><label> Email:<input type="text" name="mail" required placeholder="email">   </label></p>
                 <label name="id">
-<SELECT name="idPatients">
-<OPTION></OPTION>
-<?php  foreach($selectStatement->fetchAll() as $patient){?>
 
-
-<?php
-}
-?>
-</SELECT>
-</label>
-              
+            
 
 <p> <label>Date et heure :<input type="date" name="date" required> 
      <input type="time" name="time" required ></label></p>                 

@@ -17,7 +17,7 @@ $selectStatement->execute();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creer un patient</title>
+    <title>Creer un rendez vous</title>
 </head>
 <body>
 <h1>Créer un rendez vous</h1> 
@@ -27,10 +27,10 @@ $selectStatement->execute();
 <SELECT name="idPatients">
 <OPTION></OPTION>
 <?php  foreach($selectStatement->fetchAll() as $patient){?>
-
+<option value=<?=$patient["id"]?>><?=$patient["firstname"]?><?=$patient["lastname"]?>  </option>
 
 <?php
-}
+};
 ?>
 </SELECT>
 </label>
