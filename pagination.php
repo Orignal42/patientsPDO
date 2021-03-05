@@ -23,6 +23,7 @@ $depart = ($pageCourante-1)*$patientsParPage;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des patients</title>
+    <link href="./patients.css" rel="stylesheet">
 </head>
 <body>
 

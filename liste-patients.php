@@ -20,6 +20,7 @@ $reponse=$selectStatement;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des patients</title>
+    <link href="./patients.css" rel="stylesheet">
 </head>
 <body>
 <h1> Liste des patient</hi></br>
@@ -51,10 +52,10 @@ $reponse=$selectStatement;
 
                <td><?= $patient['id'];?></td>
 
-               <td> <a href="profilpatients.php?id=<?=$patient["id"]?>" >clic moi</a></td>
+               <td> <a href="profilpatients.php?id=<?=$patient["id"]?>" >👀</a></td>
  
-               <td><a href="modif.php?id=<?=$patient["id"]?>">clic moi</a></td>
-               <td><a href="delete.php?id=<?=$patient["id"]?> ">supprimer patient</a></td>
+               <td><a href="modif.php?id=<?=$patient["id"]?>">🖊</a></td>
+               <td><a href="delete.php?id=<?=$patient["id"]?> ">❌</a></td>
            
                </tr>
 

@@ -29,6 +29,7 @@ $selectRdvStatement->execute([$_GET["id"]
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile patient</title>
+    <link href="./patients.css" rel="stylesheet">
 </head>
 <body>
    
@@ -59,7 +60,7 @@ $selectRdvStatement->execute([$_GET["id"]
     <td><?=$patient['mail']?></td>
 </tr>
 
-<h1>liste des rendez vous</h1>
+
 
 
 <table border=1>
@@ -82,6 +83,7 @@ $selectRdvStatement->execute([$_GET["id"]
     
            foreach ($selectRdvStatement->fetchAll() as $appointment){
    ?>
+   <h1>liste des rendez vous</h1>
                <tr>
                <td><?= $appointment['firstname']?></td>
                <td><?= $appointment['lastname']?></td>
@@ -92,10 +94,10 @@ $selectRdvStatement->execute([$_GET["id"]
 
                <td><?= $appointment['dateHour'];?></td>
 
-               <td><a href="voirrdv.php?id=<?=$appointment["id"]?>">clic moi</a></td>
-               <td><a href="modifRDV.php?id=<?=$appointment["id"] ?>">clic moi</a></td>
+               <td><a href="voirrdv.php?id=<?=$appointment["id"]?>">👀</a></td>
+               <td><a href="modifRDV.php?id=<?=$appointment["id"] ?>">🖊</a></td>
               
-               <td><a href="deleteRDV.php?id=<?=$appointment["idPatients"]?>">Suppression</a></td>
+               <td><a href="deleteRDV.php?id=<?=$appointment["idPatients"]?>">❌</a></td>
 
                </tr>
 
