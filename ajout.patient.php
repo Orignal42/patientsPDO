@@ -14,10 +14,12 @@ require_once(__DIR__."/pdo.php");
 </head>
 <body>
 <h1>Créer un patient</h1> 
+<a href="index.php">accueil</a>
+    
 <form action="insert.php" method="post" >
     
                
-               <p> <label>Prénom :<input type="text" name="lastname" required placeholder="prénom" ></label></p>
+                <p><label>Prénom :<input type="text" name="lastname" required placeholder="prénom" ></label></p>
                 <p><label> Nom:<input type="text" name="firstname" required placeholder="nom" >   </label></p>                 
                 <p><label> Date de naissance:<input type="date" required name="birthdate">   </label></p>
                 <p><label> Téléphone:<input type="text" name="phone"placeholder="téléphone" >   </label></p>
@@ -27,8 +29,7 @@ require_once(__DIR__."/pdo.php");
             </form>
 
 
-
-    
+            
 </body>
 </html>
 

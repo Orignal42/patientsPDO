@@ -17,9 +17,9 @@
      <?php endif ;?>     
 
 <a href="ajout.patient.php"> créer nouveau patient  </a></br>
-<a href="liste-patients.php"> liste patients </a></br>
-<a href="ajoutrendezvous.php"> rendez vous </a></br>
-<a href="listerendezvous.php"> liste rendezvous </a></br>
+<a href="liste-patients.php"> Liste patients </a></br>
+<a href="ajoutrendezvous.php"> Creer rendez vous </a></br>
+<a href="listerendezvous.php"> Liste rendezvous </a></br>
 <a href="patientRDV.php"> Patients et RDV </a></br>
 <a href="pagination.php"> Pagination</a></br>
 </body>

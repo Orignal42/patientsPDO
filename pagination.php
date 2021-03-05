@@ -25,6 +25,8 @@ $depart = ($pageCourante-1)*$patientsParPage;
     <title>Liste des patients</title>
 </head>
 <body>
+
+
 <?php
       $patients = $pdo->query('SELECT * FROM patients ORDER BY id DESC LIMIT '.$depart.','.$patientsParPage);
       while($vid = $patients->fetch()) {
@@ -44,3 +46,4 @@ $depart = ($pageCourante-1)*$patientsParPage;
          }
       }
       ?>
+      <a href="index.php">accueil</a>

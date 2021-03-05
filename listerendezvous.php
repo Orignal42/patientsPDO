@@ -28,6 +28,7 @@ $selectStatement->execute();
 </head>
 <body>
 <h1> Liste des rendezvous</hi></br>
+<a href="index.php">accueil</a>
 <a href="ajoutrendezvous.php"> créer nouveau rendez vous  </a>
 </br>
 <table border=1>
@@ -73,6 +74,7 @@ $selectStatement->execute();
 ?>
 </tbody>
 </table>
+
       
 </body>
 </html>

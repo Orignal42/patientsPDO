@@ -36,6 +36,7 @@ $patient= $selectStatement->fetch();
             </form>
 
 
+            <a href="index.php">acceuil</a>
 
     
 </body>

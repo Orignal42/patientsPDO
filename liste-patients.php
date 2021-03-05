@@ -23,6 +23,7 @@ $reponse=$selectStatement;
 </head>
 <body>
 <h1> Liste des patient</hi></br>
+<a href="index.php">accueil</a>
 <a href="ajout.patient.php"> créer nouveau patient  </a>
 </br>
 <table border=1>
